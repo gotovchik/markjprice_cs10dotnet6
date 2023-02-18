@@ -6,3 +6,4 @@
       - [Унарные и бинарные арифметические операции.](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/master/Chapter_03/Operators)
       - [Логические операции](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/BooleanOperators)
       - [Побитовые операции и сдвиги](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/BitwiseAndShiftOperators)
+      - [Операции ветвления](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/SelectionStatements)
