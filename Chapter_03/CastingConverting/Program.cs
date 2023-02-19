@@ -81,7 +81,7 @@ string? input = Console.ReadLine();
 
 if (int.TryParse(input, out int count))
 {
-    Console.WriteLine($"There are {count} eggs.");
+    Console.WriteLine($"There are {count} apples.");
 }
 else
 {
