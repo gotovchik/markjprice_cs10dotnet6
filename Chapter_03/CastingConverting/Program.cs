@@ -70,9 +70,9 @@ Console.WriteLine($"Binaty Object as Base64: {encoded}");
 #region // Разбор строк для преобразования в числа или значения даты и времени (метод Parse)
 
 int age = int.Parse("27");
-DateTime birthday = DateTime.Parse("4 July 1980");
+DateTime birthday = DateTime.Parse("18 May 1995");
 
-Console.WriteLine($"I was born {age} yeats ago.");
+Console.WriteLine($"I was born {age} years ago.");
 Console.WriteLine($"My birthday is {birthday}.");
 Console.WriteLine($"My birthday is {birthday:D}.");
 
