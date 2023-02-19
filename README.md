@@ -7,3 +7,4 @@
    - [Побитовые операции и сдвиги](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/BitwiseAndShiftOperators)
    - [Операции ветвления](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/SelectionStatements)
    - [Операции цикла](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/IterationStatements)
+   - [Преобразование типов](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/CastingConverting)
