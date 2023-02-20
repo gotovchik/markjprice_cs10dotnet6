@@ -13,5 +13,5 @@
    - [Упражнения](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/Exercises)
 
 3. Глава 4. Разработка, отладка и тестирование функций.  
-   - []()
+   - [Написание функций](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter4/Chapter_04/WritingFunctions)
    - 
