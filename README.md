@@ -1,6 +1,6 @@
 # Изучение языка С# и платформы .NET по книге Марка Джей Прайса "C# 10 и .NET 6 Современная кросс-платформенная разработка"
 
-1. Первые две главы - ознакомительная часть с платформой и установка необходимых инструментов.  
+1. Первые две главы - ознакомительная часть с платформой и установка необходимых инструментов.
 2. Глава 3. Управление потоком исполнения, преобразование типов и обработка исключений.
    - [Унарные и бинарные арифметические операции.](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/master/Chapter_03/Operators)
    - [Логические операции](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/BooleanOperators)
@@ -11,3 +11,7 @@
    - [Обработка исключений](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/**HandlingExceptions**)
    - [Проверка переполнения](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/CheckingForOverflow)
    - [Упражнения](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/Exercises)
+
+3. Глава 4. Разработка, отладка и тестирование функций.  
+   - []()
+   - 
