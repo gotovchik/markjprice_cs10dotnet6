@@ -10,4 +10,4 @@
    - [Преобразование типов](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/CastingConverting)
    - [Обработка исключений](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/**HandlingExceptions**)
    - [Проверка переполнения](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/CheckingForOverflow)
-   - [Упражнения]()
+   - [Упражнения](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter3/Chapter_03/Exercises)
