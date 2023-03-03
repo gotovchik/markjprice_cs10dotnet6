@@ -14,3 +14,4 @@
 ### 2. Разработка, отладка и тестирование функций.  
    - [Написание функций](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter4/Chapter_04/WritingFunctions)
    - [Отладка](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter4/Chapter_04)
+   - [Модульное тестирование](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter4/Chapter_04/CalculatorLibUnitTests/CalculatorLibUnitTests)
