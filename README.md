@@ -16,3 +16,4 @@
    - [Отладка](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter4/Chapter_04)
    - [Модульное тестирование](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter4/Chapter_04/CalculatorLibUnitTests/CalculatorLibUnitTests)
    - [Генерация и перехват исключений в функциях](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter4/Chapter_04/CallStackExceptionHandling)
+   - [Упражнения](https://github.com/gotovchik/markjprice_cs10dotnet6/tree/chapter4/Chapter_04/Exercises)
