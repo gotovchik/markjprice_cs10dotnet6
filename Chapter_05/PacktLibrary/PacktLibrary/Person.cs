@@ -5,21 +5,21 @@ namespace Packt.Shared
 {
     public class Person
     {
-        // Поля
+        // ГЏГ®Г«Гї
         public string Name;
         public DateTime DateOfBirth;
 
-        // Хранение с помощью типа enum
+        // Г•Г°Г Г­ГҐГ­ГЁГҐ Г± ГЇГ®Г¬Г®Г№ГјГѕ ГІГЁГЇГ  enum
         public WondersOfTheAncientWorld FavoriteAncientWonder;
 
-        // Хранение нескольких значений с помощью коллекций
+        // Г•Г°Г Г­ГҐГ­ГЁГҐ Г­ГҐГ±ГЄГ®Г«ГјГЄГЁГµ Г§Г­Г Г·ГҐГ­ГЁГ© Г± ГЇГ®Г¬Г®Г№ГјГѕ ГЄГ®Г«Г«ГҐГЄГ¶ГЁГ©
         public List<Person> Children = new(); 
 
-        public const string Species = "Homo Sapiens"; // константа
-        public readonly string HomePlanet = "Earth"; // только для чтения
+        public const string Species = "Homo Sapiens"; // РєРѕРЅСЃС‚Р°РЅС‚Р°
+        public readonly string HomePlanet = "Earth"; // ГІГ®Г«ГјГЄГ® Г¤Г«Гї Г·ГІГҐГ­ГЁГї
         public readonly DateTime Instantiated;
 
-        // Конструкторы
+        // ГЉГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г»
         public Person()
         {
             Name = "Unknown";
@@ -33,7 +33,7 @@ namespace Packt.Shared
             Instantiated = DateTime.Now;
         }
 
-        // Методы
+        // ГЊГҐГІГ®Г¤Г»
         public void WriteToConsole()
         {
             Console.WriteLine($"{Name} was born on a {DateOfBirth:dddd}.");
@@ -43,17 +43,17 @@ namespace Packt.Shared
             return $"{Name} was born on {HomePlanet}.";
         }
 
-        public (string, int) GetFruit() // возвращает кортеж
+        public (string, int) GetFruit() // ГўГ®Г§ГўГ°Г Г№Г ГҐГІ ГЄГ®Г°ГІГҐГ¦
         {
             return ("Apples", 5);
         }
 
-        public (string Name, int Number) GetNamedFruit() // именованый кортеж
+        public (string Name, int Number) GetNamedFruit() // ГЁГ¬ГҐГ­Г®ГўГ Г­Г»Г© ГЄГ®Г°ГІГҐГ¦
         {
             return (Name: "Apples", Number: 5);
         }
 
-        // Деконструкторы
+        // Г„ГҐГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г»
         public void Deconstruct(out string name, out DateTime dob)
         {
             name = Name;
@@ -68,19 +68,19 @@ namespace Packt.Shared
             fav = FavoriteAncientWonder;
         }
 
-        // Определение и передача параметров в методы
+        // ГЋГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГҐ ГЁ ГЇГҐГ°ГҐГ¤Г Г·Г  ГЇГ Г°Г Г¬ГҐГІГ°Г®Гў Гў Г¬ГҐГІГ®Г¤Г»
         public string SayHello()
         {
             return $"{Name} says 'Hello!'";
         }
 
-        // Перегрузка методов
+        // ГЏГҐГ°ГҐГЈГ°ГіГ§ГЄГ  Г¬ГҐГІГ®Г¤Г®Гў
         public string SayHello(string name)
         {
             return $"{Name} says 'Hello {name}!'";
         }
 
-        // Передача необязательных и именованных параметров
+        // ГЏГҐГ°ГҐГ¤Г Г·Г  Г­ГҐГ®ГЎГїГ§Г ГІГҐГ«ГјГ­Г»Гµ ГЁ ГЁГ¬ГҐГ­Г®ГўГ Г­Г­Г»Гµ ГЇГ Г°Г Г¬ГҐГІГ°Г®Гў
         public string OptionalParameters(
             string command = "Run!",
             double number = 0.0,
