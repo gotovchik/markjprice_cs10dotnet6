@@ -5,16 +5,21 @@ namespace Packt.Shared
 {
     public class Person
     {
-        // поля
+        // Поля
         public string Name;
         public DateTime DateOfBirth;
+
+        // Хранение с помощью типа enum
         public WondersOfTheAncientWorld FavoriteAncientWonder;
-        public List<Person> Children = new();
+
+        // Хранение нескольких значений с помощью коллекций
+        public List<Person> Children = new(); 
+
         public const string Species = "Homo Sapiens"; // константа
         public readonly string HomePlanet = "Earth"; // только для чтения
         public readonly DateTime Instantiated;
 
-        // конструкторы
+        // Конструкторы
         public Person()
         {
             Name = "Unknown";
@@ -28,7 +33,7 @@ namespace Packt.Shared
             Instantiated = DateTime.Now;
         }
 
-        // методы
+        // Методы
         public void WriteToConsole()
         {
             Console.WriteLine($"{Name} was born on a {DateOfBirth:dddd}.");
@@ -48,7 +53,7 @@ namespace Packt.Shared
             return (Name: "Apples", Number: 5);
         }
 
-        // деконструкторы
+        // Деконструкторы
         public void Deconstruct(out string name, out DateTime dob)
         {
             name = Name;
@@ -63,5 +68,29 @@ namespace Packt.Shared
             fav = FavoriteAncientWonder;
         }
 
+        // Определение и передача параметров в методы
+        public string SayHello()
+        {
+            return $"{Name} says 'Hello!'";
+        }
+
+        // Перегрузка методов
+        public string SayHello(string name)
+        {
+            return $"{Name} says 'Hello {name}!'";
+        }
+
+        // Передача необязательных и именованных параметров
+        public string OptionalParameters(
+            string command = "Run!",
+            double number = 0.0,
+            bool active = true)
+        {
+            return string.Format(
+            format: "command is {0}, number is {1}, active is {2}",
+            arg0: command,
+            arg1: number,
+            arg2: active);
+        }
     }
 }
