@@ -3,6 +3,7 @@ using System;
 
 # region // Работа с объектами
 
+// Определение полей
 Person bob = new();
 bob.Name = "Bob Smith";
 bob.DateOfBirth = new DateTime(1965, 12, 22);
@@ -20,6 +21,8 @@ Person alice = new()
 Console.WriteLine(format: "{0} was born on {1:dd MMM yy}",
  arg0: alice.Name,
  arg1: alice.DateOfBirth);
+
+// Хранение нескольких значений с помощью коллекций
 
 bob.Children.Add(new Person { Name = "Alfred" });
 bob.Children.Add(new() { Name = "Zoe" });
@@ -119,6 +122,17 @@ Console.WriteLine($"Deconstructed: {name1}, {dob1}");
 var (name2, dob2, fav2) = bob;
 Console.WriteLine($"Deconstructed: {name2}, {dob2}, {fav2}");
 
+#endregion
+
+#region // Определение и передача параметров в методы
+
+Console.WriteLine(bob.SayHello());
+
+// Перегрузка 
+Console.WriteLine(bob.SayHello("Emily"));
+
+// Передача необязательных и именованных параметров
+Console.WriteLine(bob.OptionalParameters());
 #endregion
 
 Console.ReadKey();
