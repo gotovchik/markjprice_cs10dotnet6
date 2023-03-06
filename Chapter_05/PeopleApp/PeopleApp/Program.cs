@@ -106,4 +106,13 @@ Console.WriteLine($"{thing2.Name} has {thing2.Count} children.");
 
 #endregion
 
+#region //деконструкторы
+
+(string fruitName, int fruitNumber) = bob.GetFruit(); // деконструкция кортежа
+Console.WriteLine($"Deconstructed: {fruitName}, {fruitNumber}");
+
+
+
+#endregion
+
 Console.ReadKey();

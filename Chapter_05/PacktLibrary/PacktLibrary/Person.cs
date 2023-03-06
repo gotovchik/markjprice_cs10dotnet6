@@ -43,9 +43,25 @@ namespace Packt.Shared
             return ("Apples", 5);
         }
 
-        public (string Name, int Number) GetNamedFruit() //именованый кортеж
+        public (string Name, int Number) GetNamedFruit() // именованый кортеж
         {
             return (Name: "Apples", Number: 5);
         }
+
+        // деконструкторы
+        public void Deconstruct(out string name, out DateTime dob)
+        {
+            name = Name;
+            dob = DateOfBirth;
+        }
+
+        public void Deconstruct(out string name,
+         out DateTime dob, out WondersOfTheAncientWorld fav)
+        {
+            name = Name;
+            dob = DateOfBirth;
+            fav = FavoriteAncientWonder;
+        }
+
     }
 }
