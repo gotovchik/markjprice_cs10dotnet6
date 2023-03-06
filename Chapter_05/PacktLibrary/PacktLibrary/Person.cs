@@ -5,21 +5,21 @@ namespace Packt.Shared
 {
     public class Person
     {
-        // Ïîëÿ
+        // Поля
         public string Name;
         public DateTime DateOfBirth;
 
-        // Õðàíåíèå ñ ïîìîùüþ òèïà enum
+        // Хранение с помощью типа enum
         public WondersOfTheAncientWorld FavoriteAncientWonder;
 
-        // Õðàíåíèå íåñêîëüêèõ çíà÷åíèé ñ ïîìîùüþ êîëëåêöèé
+        // Хранение нескольких значений с помощью коллекций
         public List<Person> Children = new(); 
 
         public const string Species = "Homo Sapiens"; // константа
-        public readonly string HomePlanet = "Earth"; // òîëüêî äëÿ ÷òåíèÿ
+        public readonly string HomePlanet = "Earth"; // только для чтения
         public readonly DateTime Instantiated;
 
-        // Êîíñòðóêòîðû
+        // Конструкторы
         public Person()
         {
             Name = "Unknown";
@@ -33,7 +33,7 @@ namespace Packt.Shared
             Instantiated = DateTime.Now;
         }
 
-        // Ìåòîäû
+        // Методы
         public void WriteToConsole()
         {
             Console.WriteLine($"{Name} was born on a {DateOfBirth:dddd}.");
@@ -43,17 +43,17 @@ namespace Packt.Shared
             return $"{Name} was born on {HomePlanet}.";
         }
 
-        public (string, int) GetFruit() // âîçâðàùàåò êîðòåæ
+        public (string, int) GetFruit() // возвращает кортеж
         {
             return ("Apples", 5);
         }
 
-        public (string Name, int Number) GetNamedFruit() // èìåíîâàíûé êîðòåæ
+        public (string Name, int Number) GetNamedFruit() // именованый кортеж
         {
             return (Name: "Apples", Number: 5);
         }
 
-        // Äåêîíñòðóêòîðû
+        // Деконструкторы
         public void Deconstruct(out string name, out DateTime dob)
         {
             name = Name;
@@ -68,19 +68,19 @@ namespace Packt.Shared
             fav = FavoriteAncientWonder;
         }
 
-        // Îïðåäåëåíèå è ïåðåäà÷à ïàðàìåòðîâ â ìåòîäû
+        // Определение и передача параметров в методы
         public string SayHello()
         {
             return $"{Name} says 'Hello!'";
         }
 
-        // Ïåðåãðóçêà ìåòîäîâ
+        // Перегрузка методов
         public string SayHello(string name)
         {
             return $"{Name} says 'Hello {name}!'";
         }
 
-        // Ïåðåäà÷à íåîáÿçàòåëüíûõ è èìåíîâàííûõ ïàðàìåòðîâ
+        // Передача необязательных и именованных параметров
         public string OptionalParameters(
             string command = "Run!",
             double number = 0.0,
