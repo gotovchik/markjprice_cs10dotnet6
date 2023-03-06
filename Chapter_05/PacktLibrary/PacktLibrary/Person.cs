@@ -92,5 +92,18 @@ namespace Packt.Shared
             arg1: number,
             arg2: active);
         }
+
+        // Управление передачей параметров
+        public void PassingParameters(int x, ref int y, out int z)
+        {
+            // параметры out не могут иметь значения по умолчанию
+            // и должны быть инциализрованы внутри метода
+            z = 99;
+
+            // увеличиваем каждый параметр
+            x++;
+            y++;
+            z++;
+        }
     }
 }

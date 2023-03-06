@@ -133,6 +133,24 @@ Console.WriteLine(bob.SayHello("Emily"));
 
 // Передача необязательных и именованных параметров
 Console.WriteLine(bob.OptionalParameters());
+Console.WriteLine(bob.OptionalParameters("Jump!", 98.5));
+Console.WriteLine(bob.OptionalParameters("Poke!", active: false));
+
+
+#endregion
+
+#region // Управление передачей параметров
+
+int a = 10;
+int b = 20;
+int c = 30;
+
+Console.WriteLine($"Before: a = {a}, b {b}, c = {c}");
+bob.PassingParameters(a, ref b, out c);
+Console.WriteLine($"After: a = {a}, b {b}, c = {c}");
+
+
+
 #endregion
 
 Console.ReadKey();
