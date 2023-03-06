@@ -53,7 +53,7 @@ Console.WriteLine(format: "{0} earned {1:C} interest.",
 
 #endregion
 
-#region
+#region // Константы и readonly переменные
 // константы
 Console.WriteLine($"{bob.Name} is a {Person.Species}");
 
@@ -108,10 +108,16 @@ Console.WriteLine($"{thing2.Name} has {thing2.Count} children.");
 
 #region //деконструкторы
 
-(string fruitName, int fruitNumber) = bob.GetFruit(); // деконструкция кортежа
+// деконструкция кортежа
+(string fruitName, int fruitNumber) = bob.GetFruit(); 
 Console.WriteLine($"Deconstructed: {fruitName}, {fruitNumber}");
 
+// деконструкция Person
+var (name1, dob1) = bob;
+Console.WriteLine($"Deconstructed: {name1}, {dob1}");
 
+var (name2, dob2, fav2) = bob;
+Console.WriteLine($"Deconstructed: {name2}, {dob2}, {fav2}");
 
 #endregion
 

@@ -22,3 +22,9 @@
 
 ### 3. Создание пользовательских типов с помощью объектно-ориентированного программирования
 ---
+   - [Работа с объектами](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L4)
+   - [Создание статического поля](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L34)
+   - [Константы и readonly](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L56)
+   - [Конструкторы](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L66)
+   - [Методы](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L85)
+   - [Деконструкторы](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L109)
