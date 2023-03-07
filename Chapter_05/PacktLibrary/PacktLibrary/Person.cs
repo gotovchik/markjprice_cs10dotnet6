@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Packt.Shared
 {
-    public class Person
+    public partial class Person
     {
         // Поля
         public string Name;

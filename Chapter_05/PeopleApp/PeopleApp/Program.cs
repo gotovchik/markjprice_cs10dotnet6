@@ -149,8 +149,6 @@ Console.WriteLine($"Before: a = {a}, b {b}, c = {c}");
 bob.PassingParameters(a, ref b, out c);
 Console.WriteLine($"After: a = {a}, b {b}, c = {c}");
 
-
-
 #endregion
 
 Console.ReadKey();
