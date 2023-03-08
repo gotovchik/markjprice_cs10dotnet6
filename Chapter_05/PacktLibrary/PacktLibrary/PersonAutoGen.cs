@@ -41,6 +41,19 @@ namespace Packt.Shared
                 }
             }
         }
+
+        // индексаторы
+        public Person this[int index]
+        {
+            get
+            {
+                return Children[index]; // передача индексатору List<T>
+            }
+            set
+            {
+                Children[index] = value;
+            }
+        }
     }
 }
 

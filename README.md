@@ -35,5 +35,6 @@
 - Определение и передача параметров в методы [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#L56) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#L71)
 - Перегрузка методов [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L131) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#LL77C24-L77C24)
 - Передача необязательных и именованных параметров [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L134) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#L83)
-- Управление передачей параметров 
-- Управление доступом с помощью свойств и индексаторов
+- Управление передачей параметров [Исполнение]() | [Объект]()
+- Свойства [Исполнение]() | [Объект]()
+- Индексаторы [Исполнение]() | [Объект]()
