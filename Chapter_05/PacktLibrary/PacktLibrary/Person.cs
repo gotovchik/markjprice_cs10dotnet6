@@ -5,21 +5,21 @@ namespace Packt.Shared
 {
     public partial class Person
     {
-        // Поля
+        // Fields
         public string Name;
         public DateTime DateOfBirth;
 
-        // Хранение с помощью типа enum
+        // Storage using the enum type
         public WondersOfTheAncientWorld FavoriteAncientWonder;
 
-        // Хранение нескольких значений с помощью коллекций
+        // Storing multiple values using collections
         public List<Person> Children = new(); 
 
-        public const string Species = "Homo Sapiens"; // константа
-        public readonly string HomePlanet = "Earth"; // только для чтения
+        public const string Species = "Homo Sapiens"; // const
+        public readonly string HomePlanet = "Earth"; // readonly
         public readonly DateTime Instantiated;
 
-        // Конструкторы
+        // Constructors
         public Person()
         {
             Name = "Unknown";
@@ -33,7 +33,7 @@ namespace Packt.Shared
             Instantiated = DateTime.Now;
         }
 
-        // Методы
+        // Methods
         public void WriteToConsole()
         {
             Console.WriteLine($"{Name} was born on a {DateOfBirth:dddd}.");
@@ -43,17 +43,17 @@ namespace Packt.Shared
             return $"{Name} was born on {HomePlanet}.";
         }
 
-        public (string, int) GetFruit() // возвращает кортеж
+        public (string, int) GetFruit() // return tuple
         {
             return ("Apples", 5);
         }
 
-        public (string Name, int Number) GetNamedFruit() // именованый кортеж
+        public (string Name, int Number) GetNamedFruit() // named tuple
         {
             return (Name: "Apples", Number: 5);
         }
 
-        // Деконструкторы
+        // Deconstructors
         public void Deconstruct(out string name, out DateTime dob)
         {
             name = Name;
@@ -68,19 +68,19 @@ namespace Packt.Shared
             fav = FavoriteAncientWonder;
         }
 
-        // Определение и передача параметров в методы
+        // Defining and passing parameters to methods
         public string SayHello()
         {
             return $"{Name} says 'Hello!'";
         }
 
-        // Перегрузка методов
+        // Method overloading
         public string SayHello(string name)
         {
             return $"{Name} says 'Hello {name}!'";
         }
 
-        // Передача необязательных и именованных параметров
+        // Passing optional and named parameters
         public string OptionalParameters(
             string command = "Run!",
             double number = 0.0,
@@ -93,14 +93,14 @@ namespace Packt.Shared
             arg2: active);
         }
 
-        // Управление передачей параметров
+        // Parameter transmission control
         public void PassingParameters(int x, ref int y, out int z)
         {
-            // параметры out не могут иметь значения по умолчанию
-            // и должны быть инциализрованы внутри метода
+            // out parameters cannot have default values
+            // and must be initilized the method
             z = 99;
 
-            // увеличиваем каждый параметр
+            // increase each parameter
             x++;
             y++;
             z++;

@@ -4,7 +4,7 @@ namespace Packt.Shared
 {
     public partial class Person
     {
-        // свойства
+        // Properties
         public string Origin
         {
             get
@@ -42,12 +42,12 @@ namespace Packt.Shared
             }
         }
 
-        // индексаторы
+        // Indexers
         public Person this[int index]
         {
             get
             {
-                return Children[index]; // передача индексатору List<T>
+                return Children[index];
             }
             set
             {
