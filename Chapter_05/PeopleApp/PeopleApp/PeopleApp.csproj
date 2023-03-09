@@ -11,6 +11,9 @@
     <Reference Include="PacktLibrary">
       <HintPath>..\..\PacktLibrary\PacktLibrary\bin\Debug\net6.0\PacktLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="PacktLibraryModern">
+      <HintPath>..\..\PacktLibraryModern\obj\Debug\net6.0\PacktLibraryModern.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
