@@ -47,3 +47,5 @@
 - Свойства только для инициализации [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L229) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibraryModern/Records.cs#3)
 - Записи [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L243) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibraryModern/Records.cs#10)
 - Упрощение членов данных в записях [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L262) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibraryModern/Records.cs#18)
+#### Практические задания
+- [Проверочные вопросы](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/Exercises/Q&A.md)
