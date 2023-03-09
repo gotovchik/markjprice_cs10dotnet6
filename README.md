@@ -22,6 +22,7 @@
 
 ### 3. Создание пользовательских типов с помощью объектно-ориентированного программирования
 ---
+#### Работа с объектами
 - Определение полей [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L6) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#L8)
 - Хранение значения с помощью типа enum [Перечисление](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/WondersOfTheAncientWorld.cs#L3) | [Поле](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#L12) 
 - Хранение нескольких значений с помощью коллекций [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L25) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#L15)
@@ -29,6 +30,7 @@
 - Константа [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L61) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#L18)
 - Поле только для чтения [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L63) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#L19)
 - Конструкторы [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L69) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#L22)
+#### Запись и вызов методов
 - Методы [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L88) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#L36)
 - Возвращение нескольких значений с помощью кортежей [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L93) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#L46)
 - Деконструкция [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L112) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#L56)
@@ -36,6 +38,12 @@
 - Перегрузка методов [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L131) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#LL77C24-L77C24)
 - Передача необязательных и именованных параметров [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L134) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#L83)
 - Управление передачей параметров [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L142) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/Person.cs#L96)
+#### Управлением доступом с помощью свойств и индексаторов
 - Свойства [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L154) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/PersonAutoGen.cs#L7)
 - Индексаторы [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L174) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibrary/PacktLibrary/PersonAutoGen.cs#L45)
-- Cопоставление с образцом с помощью объектов [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L183) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibraryModern/FlightPatterns.cs)
+#### Сопоставление с образцом с помощью объектов
+- Сопоставление с образцом с помощью объектов  [Исполнение](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PeopleApp/PeopleApp/Program.cs#L183) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_05/PacktLibraryModern/FlightPatterns.cs)
+#### Работа с записями
+- Свойства только для инициализации
+- Записи
+- Упрощение членов данных в записях
