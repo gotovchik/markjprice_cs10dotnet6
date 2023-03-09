@@ -226,3 +226,43 @@ foreach (object passenger in passengers)
 
 #endregion
 
+#region // Only for initialization properties
+
+ImmutablePerson jeff = new()
+{
+    FirstName = "Jeff",
+    LastName = "Winger"
+};
+
+/*
+ * jeff.FirstName = "Geoff";  //error CS8852
+ */
+
+#endregion
+
+#region // Records
+
+ImmutableVehicle car = new()
+{
+    Brand = "Mazda MX-5 RF",
+    Color = "Soul Red Crystal Metallic",
+    Wheels = 4
+};
+
+ImmutableVehicle repaintedCar = car with //non-destructive mutation
+{
+    Color = "Polymetal Grey Metallic"
+};
+
+Console.WriteLine($"Original car color was {car.Color}.");
+Console.WriteLine($"New car color is {repaintedCar.Color}.");
+
+#endregion
+
+#region // Simplifying syntax and auto generation records
+
+ImmutableAnimal oscar = new("Oscar", "Labrador");
+var (who, what) = oscar; // calls Deconstruct method
+Console.WriteLine($"{who} is a {what}.");
+
+#endregion
