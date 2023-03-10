@@ -50,6 +50,43 @@ harry.Poke();
 harry.Poke();
 harry.Poke();
 
+#region // not-generic collection
+
+System.Collections.Hashtable lookupObject = new();
+
+lookupObject.Add(1, "Alpha");
+lookupObject.Add(2, "Beta");
+lookupObject.Add(3, "Gamma");
+lookupObject.Add(harry, "Delta");
+
+int key = 2; 
+WriteLine(format: "Key {0} has value {1}", // key - 2
+    arg0: key,
+    arg1: lookupObject[key]);
+
+WriteLine(format: "Key {0} has value {1}", // key - harry
+    arg0: harry,
+    arg1: lookupObject[key]);
+
+#endregion 
+
+#region // generic collection
+
+Dictionary<int, string> lookupIntString = new();
+
+lookupIntString.Add(1, "Alpha");
+lookupIntString.Add(2, "Beta");
+lookupIntString.Add(3, "Gamma");
+lookupIntString.Add(4, "Delta");
+
+key = 3;
+WriteLine(format: "Key {0} has value: {1}",
+    arg0: key,
+    arg1: lookupIntString[key]);
+
+#endregion
+
+
 static void Harry_Shout(object? sender, EventArgs e)
 {
     if (sender is null) return;
