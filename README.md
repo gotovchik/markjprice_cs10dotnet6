@@ -57,5 +57,6 @@
 - Реализация функциональности с помощью операций [Реализация](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_06/PeopleApp/Program.cs#23) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_06/PacktLibrary/Person.cs#35)
 - Реализация функциональности с помощью локальных функций [Реализация](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_06/PeopleApp/Program.cs#26) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_06/PacktLibrary/Person.cs#41)
 #### Подъем и обработка событий
-- Вызов методов с помощью делегатов [Реализация]() | [Объект]()
-- [Реализация]() | [Объект]()
+- Вызов методов с помощью делегатов [Реализация](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_06/PeopleApp/Program.cs#29) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_06/PacktLibrary/Person.cs#60)
+- Определение и обработка делегатов [Реализация](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_06/PeopleApp/Program.cs#46) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_06/PacktLibrary/Person.cs#66)
+- Определение и обработка событий [Реализация](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_06/PeopleApp/Program.cs#46) | [Объект](https://github.com/gotovchik/markjprice_cs10dotnet6/blob/master/Chapter_06/PacktLibrary/Person.cs#66)

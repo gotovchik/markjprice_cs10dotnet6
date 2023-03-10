@@ -54,4 +54,38 @@ public class Person : object
             return localNumber * localFactorial(localNumber - 1);
         }
     }
+
+    #region // delegate
+
+    // method for delegate
+    public int MethodIWantToCall(string input)
+    {
+        return input.Length;
+    }
+    
+    // delegate field
+    public EventHandler? Shout;
+
+    // data field
+    public int AngerLevel;
+
+    // method
+    public void Poke()
+    {
+        AngerLevel++;
+
+        if ( AngerLevel >= 3 )
+        {
+            /*// if smth is bugged...
+            if (Shout != null )
+            {
+                // ... call delegate
+                Shout(this, EventArgs.Empty);
+            }*/
+
+            // simplify null check with "?"
+            Shout?.Invoke(this, EventArgs.Empty);
+        }
+    }
+    #endregion
 }

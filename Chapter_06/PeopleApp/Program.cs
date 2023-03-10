@@ -26,4 +26,35 @@ Person baby3 = harry * mary;
 // call method with local func
 WriteLine($"5! is {Person.Factorial(5)}");
 
+/*#region // delegate
+
+// call method
+Person p1 = new();
+int answer = p1.MethodIWantToCall("Frog");
+
+// delegate
+delegate int DelegateWithMatchingSignature(string s);
+
+// create delegate sample
+DelegateWithMatchingSignature d = new(p1.MethodIWantToCall); // CS8803
+
+// call delegate
+int answer2 = d("Frog");
+
+#endregion*/
+
+// Definition and processing delegate
+harry.Shout += Harry_Shout; // method in end of file
+harry.Poke();
+harry.Poke();
+harry.Poke();
+harry.Poke();
+
+static void Harry_Shout(object? sender, EventArgs e)
+{
+    if (sender is null) return;
+    Person p = (Person)sender;
+    WriteLine($"{p.Name} is this angry: {p.AngerLevel}.");
+}
+
 ReadKey();
